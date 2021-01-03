@@ -37,8 +37,8 @@ button {
 	border: 1px solid rgba(0, 0, 0, 0.4);
 	border-width: 0 1px;
 	margin: 0 -5px 20px;
-	background: -webkit-linear-gradient(top, #8769A0, #9578B9 15%, #6A4883 50%, #433061);
-	background: -moz-linear-gradient(top, #8769A0, #9578B9 15%, #6A4883 50%, #433061);
+	background: -webkit-linear-gradient(top, #1d99ff, #1b4a72 15%, #102e47 50%, #102e47);
+	background: -moz-linear-gradient(top, #1d99ff, #1b4a72 15%, #102e47 50%, #102e47);
 	box-shadow: 0 5px 4px -3px rgba(0, 0, 0, 0.6);
 	position: absolute;
 }
@@ -47,12 +47,12 @@ button {
 	border-radius: 20px;
 	border: 1px solid rgba(0, 0, 0, 0.4);
 	border-top: none;
-	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.9), 0 -40px 2px -1px #433061 inset;
+	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.9), 0 -40px 2px -1px #102e47 inset;
 	width: 640px;
 	margin: auto;
 	height: 200px;
 	overflow: hidden;
-	background-color: #765490;
+	background-color: #1d99ff;
 }
 
 #controls > div {
@@ -71,11 +71,11 @@ button {
 }
 
 button {
-	background-color: #6A4883;
+	background-color: #1d99ff;
 	font-weight: bold;
 	font-size: 18px;
 	color: white;
-	text-shadow: 0 3px #433061;
+	text-shadow: 0 3px #102e47;
 	padding: 2px 10px 5px;
 	border-radius: 0 0 10px 10px;
 	border: 0 solid rgba(0, 0, 0, 0.4);
