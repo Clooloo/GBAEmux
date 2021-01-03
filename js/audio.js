@@ -131,7 +131,7 @@ GameBoyAdvanceAudio.prototype.clear = function() {
 	this.backup = 0;
 	this.totalSamples = 0;
 
-	this.sampleRate = 96000 ;
+	this.sampleRate = 44100 ;
 	this.sampleInterval = this.cpuFrequency / this.sampleRate;
 	this.resampleRatio = 1;
 	if (this.context) {
